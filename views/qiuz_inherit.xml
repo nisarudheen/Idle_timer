@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template id="idle_timer" inherit_id="survey.survey_page_fill" name="Idle Timer">
+            <xpath expr="//div[hasclass('o_survey_form')]" podition="inside">
+                <div>
+                    <div class="time_left" style="font-size: 30px">Time Left:
+                    </div>
+                    <div class="idle_timer_left" style="font-size: 20px">
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>
